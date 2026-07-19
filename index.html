@@ -269,7 +269,7 @@ Extensive experiments on multiple public dynamic novel view synthesis datasets d
       <!-- Abstract. -->
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-          <h2 class="title is-3">Theoretical Analysis</h2>
+          <!-- <h2 class="title is-3">Theoretical Analysis</h2>
           <div class="content has-text-justified">
 
             <!-- <p>
@@ -278,10 +278,10 @@ Extensive experiments on multiple public dynamic novel view synthesis datasets d
             <p>
               Our framework, <strong>InstantSplat</strong>, integrates dense stereo predictions with point-based representations to construct 3D Gaussians of large-scale scenes from sparse-view data within seconds. Specifically, InstantSplat generates densely populated surface points across all training views and determines the initial camera parameters using pixel-aligned points. Nonetheless, the non-uniform distribution of initial points from all pixels results in an excessive number of Gaussians,  ielding a sub-optimal scene representation that compromises rendering speed and quality. To address this issue, we employ a highly efficient grid-based, confidence-aware Farthest Point Sampling to strategically position point primitives at representative locations in parallel. Having the uniformly sampled surface points, we can initialize densely covered Gaussians and adopt a streamlined optimization framework to adapt the camera parameters and attributes of 3D Gaussians efficiently, instead of utilizing the complex Adaptive Density Control with manually tuned hyperparameters in 3D-GS. InstantSplat achieves a substantial reduction in training time, from <u></u>hours to mere seconds</u>, and demonstrates robust performance across various numbers of views in diverse datasets.
             </p> -->
-            <img src="./dynamic/result/adjust_RBF_waveform.png">
+            <!-- <img src="./dynamic/result/adjust_RBF_waveform.png"> -->
             <p>
-How does the transformation field decompose frequencies?
-The transformation field incorporates two key mechanisms: a hierarchical nested structure inspired by the Kolmogorov–Arnold representation theorem, and an input-variable decoupling strategy. The former employs a recursive nesting of outer and inner functions to incrementally enhance the model’s expressivity for high-dimensional functions, while also helping to mitigate overfitting. 
+<!-- How does the transformation field decompose frequencies? -->
+<!-- The transformation field incorporates two key mechanisms: a hierarchical nested structure inspired by the Kolmogorov–Arnold representation theorem, and an input-variable decoupling strategy. The former employs a recursive nesting of outer and inner functions to incrementally enhance the model’s expressivity for high-dimensional functions, while also helping to mitigate overfitting.  -->
 The latter assigns each input variable a set of transformable RBF basis functions, enabling independent modeling and frequency decoupling.
 Specifically, each input variable is modeled using a group of RBF kernels with centers uniformly distributed over the input domain. The scaling weights of these kernels determine their response shapes (e.g., sharp or smooth), corresponding to different frequency bands. From a frequency-domain perspective, sharper (narrower) kernels exhibit broader spectral responses and better capture high-frequency components, whereas smoother (wider) kernels respond more strongly to low-frequency content. Through backpropagation, the network automatically adjusts the scaling weights, thereby selecting appropriate frequency components for each input variable.
              </p>
@@ -290,7 +290,7 @@ Specifically, each input variable is modeled using a group of RBF kernels with c
           </div>
         </div>
       </div>
-    <!--/ Theoretical Analysis. -->
+    <!--/ Theoretical Analysis. --> -->
       
       
       
