@@ -282,15 +282,15 @@ Extensive experiments on multiple public dynamic novel view synthesis datasets d
             <p>
 <!-- How does the transformation field decompose frequencies? -->
 <!-- The transformation field incorporates two key mechanisms: a hierarchical nested structure inspired by the Kolmogorov–Arnold representation theorem, and an input-variable decoupling strategy. The former employs a recursive nesting of outer and inner functions to incrementally enhance the model’s expressivity for high-dimensional functions, while also helping to mitigate overfitting.  -->
-The latter assigns each input variable a set of transformable RBF basis functions, enabling independent modeling and frequency decoupling.
-Specifically, each input variable is modeled using a group of RBF kernels with centers uniformly distributed over the input domain. The scaling weights of these kernels determine their response shapes (e.g., sharp or smooth), corresponding to different frequency bands. From a frequency-domain perspective, sharper (narrower) kernels exhibit broader spectral responses and better capture high-frequency components, whereas smoother (wider) kernels respond more strongly to low-frequency content. Through backpropagation, the network automatically adjusts the scaling weights, thereby selecting appropriate frequency components for each input variable.
+<!-- The latter assigns each input variable a set of transformable RBF basis functions, enabling independent modeling and frequency decoupling. -->
+<!-- Specifically, each input variable is modeled using a group of RBF kernels with centers uniformly distributed over the input domain. The scaling weights of these kernels determine their response shapes (e.g., sharp or smooth), corresponding to different frequency bands. From a frequency-domain perspective, sharper (narrower) kernels exhibit broader spectral responses and better capture high-frequency components, whereas smoother (wider) kernels respond more strongly to low-frequency content. Through backpropagation, the network automatically adjusts the scaling weights, thereby selecting appropriate frequency components for each input variable. -->
              </p>
 
 
           </div>
         </div>
       </div>
-    <!--/ Theoretical Analysis. --> -->
+    <!-- / Theoretical Analysis. --> -->
       
       
       
